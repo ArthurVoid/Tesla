@@ -1,0 +1,76 @@
+body{
+    padding-top:800px;
+    text-align: center;
+}
+.profile{
+    border-radius:50%;
+}
+#bienvenida{
+    position: absolute;
+    background:linear-gradient(rgb(71, 221, 108), rgb(97, 205, 212));
+    display:table;
+    width:100%;
+    height:100%;
+
+}
+.menu{
+    list-style:none;
+    position:fixed;
+    background:rgb(68, 221, 188);
+    width:100%;
+    top:10px;
+    z-index:10;
+    margin-top: 0px;
+}
+.links{
+display:inline;
+padding-left:33px;
+padding-right:25px;
+font-family:Lucida Handwriting;
+font-size:30px;
+
+}
+h1{
+    font-size:40px;
+    font-family:Lucida Handwriting;
+    font-weight:300;
+}
+h2{
+    font-size:30px;
+    font-family:Lucida Handwriting;
+    font-weight:300;
+} 
+#bio{
+    font-family:Lucida Handwriting;
+    padding:50px;
+}
+#nombre{
+    font-size:50px;
+    font-family:Lucida Handwriting;
+}
+.line{
+    height:6px;
+    background-color:aqua;
+    width:70px;
+    margin:8px auto;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+a{
+text-decoration: double;
+}
+.links:hover{
+    font-size:25px;
+    text-decoration: solid;
+}
+#textos a{
+    color:rgb(24, 46, 41); text-decoration:wavy;   
+}
+#contacto {
+    background:rgb(84, 82, 255)
+    }
+    .contacto_1 h3{
+        display:inline;
+    }
